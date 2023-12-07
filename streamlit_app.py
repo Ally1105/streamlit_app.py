@@ -31,6 +31,10 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output on the screen as a table
 streamlit.dataframe(fruityvice_normalized)
 
+
+
+
+import snowflake.connector
 # New SEction to display fruityvuce API response
 streamlit.header("Fruityvice Fruit Advice!")
 try:
