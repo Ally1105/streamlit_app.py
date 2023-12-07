@@ -35,5 +35,9 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 import snowflake.connector
+snowflake-connector-python
 
+streamlit==1.25.0
+
+pyarrow==10.0.1
 
